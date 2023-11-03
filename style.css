@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+}
+
+.bg-color1 {
+  background-color: #191d88;
+  color: #fff;
+}
+
+.btn {
+  background-color: #191d88;
+}
+
+.price {
+  color: #342529;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.center2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-img {
+  width: 100%;
+  background-color: #fff;
+  padding: 10%;
+}
+
+.icons {
+  width: 50px;
+}
+
+.footer-h {
+  min-height: 10vh;
+  padding-top: 2%;
+}
+
+#carouselExampleAutoplaying {
+  height: 60vh;
+}
+
+@media (max-width: 800px) {
+  #carouselExampleAutoplaying {
+    display: none;
+  }
+}
+
+.carousel-inner {
+  height: 100%;
+  /* Isso garante que os slides ocupem toda a altura do carrossel */
+}
+
+.carousel-item {
+  height: 100%;
+  /* Isso garante que as imagens ocupem toda a altura do carrossel */
+}
+
+.carousel-item img {
+  object-fit: cover;
+  /* Isso garante que as imagens se ajustem à altura do carrossel */
+}
+
+.cart {
+  width: 25px;
+}
+
+.carousel-image {
+  max-width: 100%;
+  /* Redimensiona a imagem para se ajustar à largura do carrossel */
+  height: 60vh;
+  /* Mantém a proporção original da imagem */
+}
+
+.wt-100 {
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .hidden-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
