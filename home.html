@@ -55,7 +55,7 @@
               >
             </li>
           </ul>
-          <div class="col-6 center2 hidden-display">
+          <div class="col-4 center2 hidden-display">
             <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
               <input
                 type="search"
@@ -65,16 +65,32 @@
               />
             </form>
 
-            <div class="center2">
-              <button
-                onclick="window.location.href='home.html'"
-                type="button"
-                class="btn btn-outline-light me-2"
+            <div class="dropdown text-end center2 gap-1">
+              <span class="badge badge-pill bg-danger" id="num2">0</span>
+              <span
+                ><img class="cart" src="/img/cart.png" alt="cart-img" />
+              </span>
+              <a
+                href="#"
+                class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
               >
-                Login
-              </button>
-
-              <button type="button" class="btn btn-primary">Sign-up</button>
+                <img
+                  src="https://github.com/mdo.png"
+                  alt="mdo"
+                  width="32"
+                  height="32"
+                  class="rounded-circle"
+                />
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#">New project...</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Sign out</a></li>
+              </ul>
             </div>
           </div>
         </div>
