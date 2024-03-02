@@ -27,10 +27,10 @@ To clone and run this project, execute in your command line:
 
 ```bash
 # Cloning this repository
-$ git clone https://github.com/JuscelinoMamede01/sinagoga-recife
+$ git clone https://github.com/JuscelinoMamede01/sinagoga-recife](https://github.com/JuscelinoMamede01/oticassl.git
 
 # Accessing the repository
-$ cd sinagoga-recife
+$ cd oticassl
 ```
 
 ---
