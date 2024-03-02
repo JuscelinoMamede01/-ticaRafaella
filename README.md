@@ -1,5 +1,5 @@
 
-# Glasses website
+# UX Project Glasses website
 
 Project created for the practice of HTML, CSS, BOOTSTRAP, and JS, developed during the UX class at the college.
 
